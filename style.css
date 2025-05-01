@@ -36,7 +36,24 @@
             padding-bottom: 5px;
          }
         
-
+    
+         header{
+            background-color: #0A74DA;
+            background-image: linear-gradient(to top, #0A74DA,var(--cor-padrao));
+            margin-bottom: 30px ;
+            padding: 12px;
+            width: 100%;
+            text-align: center;
+            color: white; 
+            margin-left: 0 0;
+            position: fixed;
+            top: 0;
+            height: 5;
+        
+        }
+         main{
+          margin-bottom: 30px;
+        }
 
 
 @media (max-width: 600px) {
@@ -46,6 +63,11 @@
     font-family: Arial, Helvetica, sans-serif;
   
 }
+article{
+    width: 100%;
+    margin: 0px 0px 0px;
+ }
+  
 }
 
         img{
@@ -63,7 +85,32 @@
 
         }
        
-        
+        @media(min-width:900px){
+           
+            h1{
+                
+                text-align: justify;
+               
+                font-size: 25px;
+                margin-bottom: 2em;
+            }
+            main{
+               margin-top: 22px;
+
+            }
+            article{
+                margin-left: 7em;
+                margin-bottom: 20px;
+                margin-top: 7em;
+                box-shadow: 1px 1px 1px 1px #dadadf;
+                margin-left: 7em;
+                padding: 24px;
+                width: 690px;
+
+            }
+            
+        }
+
         @media(max-width:768px){
             
             p{
@@ -80,6 +127,10 @@
                 font-family: Arial, Helvetica, sans-serif;
                 text-align: justify;
             }
+            article{
+                width: 100%;
+                margin: 0px 0px 0px;
+             }
            
         }
         @media(max-width:480px){
@@ -109,45 +160,14 @@
             }
 
         }
-        @media(min-width:900px){
-           
-            h1{
-                
-                text-align: justify;
-               
-                font-size: 25px;
-                margin-bottom: 2em;
-            }
-            article{
-                margin-left: 7em;
-                margin-bottom: 20px;
-                margin-top: 7em;
-                box-shadow: 1px 1px 1px 1px #dadadf;
-                margin-left: 7em;
-                padding: 24px;
-                width: 690px;
-
-            }
-        }
        
        
-header{
-    background-color: #0A74DA;
-    background-image: linear-gradient(to top, #0A74DA,var(--cor-padrao));
-    padding: 20px ;
-    width: 100%;
-    text-align: center;
-    color: white; 
-    margin-left: 0 0;
-    position: fixed;
-    margin-bottom: 12px;
-    top: 0;
-    height: 5;
+       
 
-}
 
 nav{
     margin-top: 10px;
+    padding-top: 19px;
 }
 nav a{
     color: white;
